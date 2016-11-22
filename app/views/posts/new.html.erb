@@ -1,0 +1,7 @@
+<%= form_for (@post) do |f| %>
+     タイトル
+    <%= f.text_field :title, class: "title" %>
+     本文
+    <%= f.text_field :body, class: "..." %>
+    <%= f.submit "保存", class: "..." %>
+<% end %>
